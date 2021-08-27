@@ -1,0 +1,327 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.7em;
+}
+
+/* utility */
+.container {
+  overflow: auto;
+  padding: 0px 20px;
+  margin: auto;
+  max-width: 1100px;
+}
+
+.lead {
+  font-size: 15px;
+  font-weight: 800;
+}
+.lead-head {
+  line-height: 1.2;
+  font-weight: 800;
+}
+
+.tan {
+  color: tan;
+}
+
+.bg-dark {
+  background-color: #333;
+}
+
+.bg-light {
+  background-color: tan;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  background: #333;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.btn:hover {
+  color: #333;
+  background-color: tan;
+  font-weight: 700;
+}
+.btn-light {
+  display: inline-block;
+  padding: 5px 20px;
+  border: none;
+  color: #fff;
+  background: #333;
+  font-weight: 700;
+  margin-bottom: 20px;
+  background: tan;
+  color: #333;
+}
+
+.btn-light:hover {
+  color: #333;
+  background-color: #fff;
+  font-weight: 700;
+}
+.clr {
+  clear: both;
+}
+
+py-1 {
+  padding: 10px auto;
+}
+py-2 {
+  padding: 20px auto;
+}
+py-2 {
+  padding: 30px auto;
+}
+py-4 {
+  padding: 40px auto;
+}
+
+/*Global*/
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+h1,
+h2,
+h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+/* navbar */
+
+#navbar {
+  /* position: sticky;
+  top: 0px; */
+  background-color: #333;
+  overflow: auto;
+}
+
+#navbar .logo {
+  float: left;
+  padding-right: 20px;
+}
+
+#navbar ul {
+  float: right;
+}
+
+#navbar ul li {
+  float: left;
+}
+
+#navbar ul li a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+}
+
+#navbar ul li:hover,
+#navbar ul li a:hover {
+  background-color: #5b5b5b;
+  color: tan;
+}
+
+.current {
+  background-color: #5b5b5b;
+  color: tan;
+}
+
+/*showcase*/
+
+#showcase {
+  background: url("../img/showcase.jpg") no-repeat center center/cover;
+  height: 400px;
+}
+
+#showcase .showcase-content {
+  color: #fff;
+  margin-top: 100px;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+/* 
+info home */
+#home-info {
+  height: 450px;
+}
+
+#home-info .home-image {
+  float: left;
+  background: url("../img/photo-1.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 50%;
+}
+
+.home-text {
+  float: right;
+  width: 48%;
+  height: 100%;
+  text-align: center;
+  padding: 50px 30px;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* Features */
+
+.box {
+  max-width: 500px;
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Main-Footer */
+#main-footer {
+  background: #2b2b2b;
+  text-align: center;
+  font-size: smaller;
+  color: #fff;
+  height: max-content;
+  padding: 10px;
+}
+
+/* about */
+
+#about {
+  height: 450px;
+}
+
+.about-left {
+  padding-top: 20px;
+  float: left;
+  width: 50%;
+}
+.about-left p {
+  text-align: justify;
+  padding-right: 10px;
+}
+
+.about-left h1 {
+  padding-left: 30px;
+}
+
+.about-right img {
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+  float: right;
+  width: 40%;
+  border-radius: 50%;
+}
+
+/* 
+testimonials */
+
+#testimonial {
+  background: url("../img/test-bg.jpg") no-repeat center center/cover;
+  height: 100%;
+}
+
+#testimonial .testimonials {
+  width: 100%;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  opacity: 0.9;
+}
+#testimonial h1 {
+  text-align: center;
+  font-size: 50px;
+  font-weight: 1000;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#testimonial .testimonials img {
+  float: left;
+  margin: 5px 10px;
+  width: 100px;
+  height: 90px;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+#testimonial .testimonials p {
+  text-align: justify;
+}
+
+#contact form label {
+  display: block;
+}
+
+#contact .form-group {
+  margin: 10px 30px;
+}
+
+#contact .form-group input,
+textarea {
+  width: 80%;
+  padding: 5px;
+  border: 1px grey solid;
+  border-radius: 2px;
+}
+
+#contact input:focus,
+textarea:focus {
+  outline: none;
+  border-color: tan;
+}
+
+#contact h1,
+p {
+  margin: 30px;
+}
+
+/* 
+contact info bar */
+
+#contact-info {
+  background: #333;
+}
+
+.contact-box {
+  text-align: center;
+  padding: 15px;
+  margin-top: 10px;
+  float: left;
+  width: 33%;
+}
+
+#contact-info i {
+  color: #fff;
+}
+
+#contact-info p {
+  color: #fff;
+}
+
+#footer-padding {
+  background: #333;
+  padding-bottom: 100px;
+}
