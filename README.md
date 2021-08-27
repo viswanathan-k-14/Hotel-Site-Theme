@@ -12,4 +12,4 @@
 
 ✔️ Useful for people getting started with html and css .
 
-✔️ Try making this live template using: https://app.netlify.com/drop
+✔️ Try making this template live using: https://app.netlify.com/drop
