@@ -1,4 +1,4 @@
-# Hotel-site-theme
+# Hotel-Site-Theme
 
 ✔️ Vanilla Html Css layout for a 3 page hotel site | Mobile friendly .
 
